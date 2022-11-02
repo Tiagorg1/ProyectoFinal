@@ -1,0 +1,46 @@
+.presentacion{
+ img{
+    width: 90%;
+    margin: 0px 5%;
+ }
+    p{
+        width: $w-50;
+        margin: 0px 25%;
+        color: rgba(255, 255, 255, 0.986);
+        font-size: 1.8rem;
+        line-height: 2.2;
+        margin: 25px auto;
+        font-family: $fontMain;
+    }
+        width: $w-100;
+        height: $h-auto;
+        padding-top: $p-30;
+        h1{
+            text-align: $textC;
+        }
+}
+
+.carrousel{
+    width: 80%;
+    margin: 0px 10%;
+    padding-bottom: 15px;
+    img{
+        width: $w-100;
+    }
+        section{
+            padding: 20px;
+            background-color: $mainSectionColor;
+            h2{
+                text-align: $textC;
+                font-style: italic;
+            }
+        }
+        p{
+            color: rgb(255, 255, 255);
+            font-family: $fontMain;
+            font-size: 1.8rem;
+            width: $w-50;
+            margin: 15px 25%;
+            text-align: $textC;
+        }
+}

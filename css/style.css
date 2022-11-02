@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+
+/* Inicia index */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+   background-color: #212529;
+   font-size: 62.5%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+
+.pie img{
+    width: 50px;
+    height: auto;
+}
+
+#botonera{
+    background-color: #1c1f2b;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display:inline-block;
+    z-index: 10;
+}
+
+#botonera ul{
+    list-style: none;
+}
+
+#botonera ul li{
+    padding: 0px 6%;
+    display: inline-block;
+    margin: 5px 1.6%;
+}
+
+#botonera ul li:hover{
+    font-weight: bold;
+}
+
+#botonera ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    position: sticky;
+    margin-right: 45px;
+}
+
+#botonera a{
+    margin-top: 10px;
+}
+
+#botonera img{
+    width: 120px;
+}
+
+.presentacion p{
+    color: rgba(255, 255, 255, 0.986);
+    font-size: 1.8rem;
+    line-height: 2.2;
+    margin: 25px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #001233;
+}
+.presentacion div{
+     width: 50%;
+     margin: 0px 25%;
+}
+
+.carrousel img{
+    width: 100%;
+}
+
+main{
+    background-color: #16233f;
+}
+
+.carrousel{
+    width: 80%;
+    margin: 0px 10%;
+    padding-bottom: 15px;
+}
+
+h1, h2, h3, h4{
+    color: rgb(252, 245, 245);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.carrousel section p{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    width: 50%;
+    margin: 15px 25%;
+    text-align: center;
+}
+
+.carrousel section{
+    padding: 20px;
+    background-color: #16233f;
+}
+
+.carrousel section h2{
+    text-align: center;
+    font-style: italic;
+}
+
+.pie label{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.presentacion h1{
+    text-align: center;
+}
+
+.presentacion{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.pie iframe{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/* Termina index */
+
+/* Inicia productos */
+
+.imagenProductosVarios{
+    width: 100%;
+}
+
+.cajaCategorias{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+section div div h3, h4{
+    color: white;
+}
+
+.cajaCategorias div{
+    width: 100%;
+    height: auto;
+    background-color: #1f2230;
+}
+
+.cajaCategorias li{
+    list-style: none;
+    padding: 10px;
+}
+
+.cajaCategorias li:hover{
+    background-color: #262a3b;
+}
+
+.cajaCategorias p{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+.productos h1{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 4rem;
+    text-align: center;
+    padding: 25px;
+}
+
+.cajaCategorias li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #1f2230;
+    border: #1f2230;
+}
+
+section{
+   background-color: #16233f;
+   padding: 10px 10px;
+}
+
+.productos img{
+    width: 100%;
+}
+
+.productos h3{
+    margin: 10px;
+    text-align: center;
+}
+
+.productos p{
+    font-size: 2.5rem;
+    text-align: center;
+    color:aliceblue
+}
+
+/* Termina productos */
+
+/* Incia nosotros */
+.nosotros img{
+    width: 100%;
+    height: auto;
+}
+
+.nosotros h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.sobreNosotros div p{
+    font-size: 2rem;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+
+.sobreNosotros div{
+    font-size: 3.5rem;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.sobreNosotros{
+    background-color: #282c41;
+}
+/* Termina nosotros */
+
+/* Inicia contactenos */
+
+.centroAyuda{
+    text-align: center;
+    padding: 30px;
+}
+.centroAyuda p{
+    font-size: 2rem;
+    color: whitesmoke
+}
+
+.mediosDeContacto article{
+    display: flex;
+    justify-content: center;
+}
+
+.mediosDeContacto article p{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.mediosDeContacto article div{
+    margin: 30px 10px;
+}
+
+.mediosDeContacto{
+   text-align: center;
+}
+
+.mediosDeContacto img{
+   margin-bottom: 5px;
+}
+
+.horariosAtencion{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    padding: 25px;
+}
+
+.horariosAtencion p{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.centroAyudaColor{
+    background-color: #282c41;
+}
+/* Termina contactenos */
+
+/* Inicia preguntas frecuentes */
+
+.preguntasFrecuentes{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #282c41;
+}
+
+.preguntasFrecuentes h1{
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    font-size: 5rem;
+}
+
+.preguntas p{
+    font-size: 2rem;
+}
+
+.preguntas h2{
+    color: black;
+}
+
+.preguntas{
+    background-color: #1c1f2b;
+    padding: 30px;
+}
+
+/* Termina preguntas frecuentes */

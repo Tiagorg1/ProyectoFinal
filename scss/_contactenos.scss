@@ -1,0 +1,38 @@
+.centroAyuda{
+    text-align: center;
+    padding: 30px;
+    p{
+        font-size: 2rem;
+        color: whitesmoke
+    }
+}
+
+.mediosDeContacto{
+    text-align: center;
+    img{
+        margin-bottom: 5px;
+    }
+        article{
+            display: flex;
+            justify-content: center;
+            div{
+                margin: 30px 10px;
+            }
+            p{
+                text-align: center;
+                font-size: 2rem;
+                color: white;
+            }
+        }
+}
+
+.horariosAtencion{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    padding: 25px;
+    p{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+}

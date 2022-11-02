@@ -1,0 +1,49 @@
+#botonera{
+    background-color: $secondaryColor;
+    position: sticky;
+    width: $w-100;
+    top: 0;
+    left: 0;
+    display:inline-block;
+    z-index: 10;
+    img{
+        width: 120px;
+    }
+    ul{
+        list-style: none;
+        li{
+            padding: 0px 6%;
+            display: inline-block;
+            margin: 5px 1.6%;
+            :hover{
+                font-weight: bold;
+            }
+            a{
+                color: aliceblue;
+                text-decoration: none;
+                font-family: $fontMain;
+                font-size: 2.3rem;
+                position: sticky;
+                margin-right: 45px;
+            }
+        }
+    }
+    a{
+        margin-top: 10px;
+    }
+}
+
+.pie{
+    img{
+        width: 50px;
+        height: auto;
+    }
+    label{
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    iframe{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}

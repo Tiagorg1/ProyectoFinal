@@ -1,0 +1,22 @@
+.nosotros{
+    img{
+        width: 100%;
+        height: auto;
+    }
+    h1{
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+.sobreNosotros{
+    background-color: #282c41;
+    div{
+        @include texto(3.5rem, 30px, white, center);
+        p{
+            font-size: 2rem;
+            padding: 10px;
+            padding-bottom: 35px;
+        }
+    }
+}

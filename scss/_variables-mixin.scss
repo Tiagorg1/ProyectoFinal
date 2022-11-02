@@ -1,0 +1,28 @@
+// sizing
+$w-100:100%;
+$w-50:50%;
+$h-auto:auto;
+$p-30:30px;
+// position
+$textC:center;
+$textR:right;
+$textL:left;
+// colores
+$mainColor:#212529;
+$secondaryColor:#1c1f2b;
+$terciaryColor:#282c41;
+$mainSectionColor:#16233f;
+// fontsize
+$textMd:2rem;
+$textXl:3.5rem;
+$fontMain:'Roboto', sans-serif;
+
+
+//mixin
+@mixin texto ($fontsize, $padding, $color, $position){
+    font-family: 'Roboto', sans-serif;
+    font-size: $fontsize;
+    padding: $padding;
+    color: $color;
+    text-align: $position;
+}
